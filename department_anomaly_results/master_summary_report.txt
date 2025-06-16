@@ -1,0 +1,74 @@
+DEPARTMENT-SPECIFIC ENTITLEMENT ANOMALY DETECTION - MASTER SUMMARY
+================================================================================
+
+Processing Date: 2025-06-13 14:09:14
+Total Departments Processed: 15
+Batch Size per Department: 15
+Max Employees per Batch: 8
+
+OVERALL RESULTS:
+------------------------------
+Total Combinations: 204814
+Total Anomalies: 11351
+Overall Anomaly Rate: 5.54%
+
+DEPARTMENT BREAKDOWN:
+------------------------------
+Accounting: 13639.0 combinations, 755.0 anomalies (5.5%)
+Application Development: 13430.0 combinations, 747.0 anomalies (5.6%)
+Credit Risk: 13707.0 combinations, 764.0 anomalies (5.6%)
+Data Management: 13609.0 combinations, 754.0 anomalies (5.5%)
+Finance: 13646.0 combinations, 761.0 anomalies (5.6%)
+Financial Planning: 13649.0 combinations, 744.0 anomalies (5.5%)
+Human Resources: 13515.0 combinations, 762.0 anomalies (5.6%)
+Information Technology: 13647.0 combinations, 752.0 anomalies (5.5%)
+Infrastructure: 13751.0 combinations, 759.0 anomalies (5.5%)
+Market Risk: 13672.0 combinations, 756.0 anomalies (5.5%)
+Operations: 13682.0 combinations, 750.0 anomalies (5.5%)
+Recruitment: 13712.0 combinations, 765.0 anomalies (5.6%)
+Risk Management: 13683.0 combinations, 758.0 anomalies (5.5%)
+Security: 13745.0 combinations, 761.0 anomalies (5.5%)
+Treasury: 13727.0 combinations, 763.0 anomalies (5.6%)
+
+TOP 20 MOST ANOMALOUS COMBINATIONS ACROSS ALL DEPARTMENTS:
+------------------------------------------------------------
+ 1. ENT171_ENT719 | Treasury | Score: 1.000
+     Admin_FXpositions + Write_SharePointPortalconfigurationsettings
+ 2. ENT1901_ENT422 | Treasury | Score: 1.000
+     Admin_WealthManagementAsiareferencedata + Admin_WealthManagementworkflowrules
+ 3. ENT1128_ENT814 | Treasury | Score: 1.000
+     Admin_LoanOriginationSystemAmericasreports + Execute_CoreBankingAsiareferencedata
+ 4. ENT1401_ENT814 | Treasury | Score: 1.000
+     Admin_RiskEngineAsianotifications + Execute_CoreBankingAsiareferencedata
+ 5. ENT1266_ENT1277 | Treasury | Score: 1.000
+     Read_TreasuryManagementAmericasuseraccounts + Read_TreasuryManagementAmericasreports
+ 6. ENT1045_ENT1051 | Treasury | Score: 1.000
+     Execute_LoanOriginationSystemAsiaworkflowrules + Execute_LoanOriginationSystemAsiabatchjobs
+ 7. ENT503_ENT892 | Treasury | Score: 1.000
+     Read_MobileBankingworkflowrules + Admin_CoreBankingAmericasworkflowrules
+ 8. ENT262_ENT272 | Treasury | Score: 1.000
+     Write_Exposurereports + Execute_Riskmodels
+ 9. ENT644_ENT700 | Treasury | Score: 1.000
+     Read_EmailSystembatchjobs + Read_SharePointPortalconfigurationsettings
+10. ENT261_ENT279 | Treasury | Score: 1.000
+     Execute_Stresstests + Execute_Riskparameters
+11. ENT1582_ENT1594 | Treasury | Score: 1.000
+     Read_RegReportingEuropenotifications + Read_RegReportingEuropereferencedata
+12. ENT1884_ENT750 | Treasury | Score: 1.000
+     Read_WealthManagementAsiabatchjobs + Read_DataWarehouseuseraccounts
+13. ENT852_ENT884 | Treasury | Score: 1.000
+     Execute_CoreBankingEuropeworkflowrules + Execute_CoreBankingAmericasreports
+14. ENT009_ENT036 | Treasury | Score: 1.000
+     Write_Transactionhistory + Read_Customeraccounts
+15. ENT142_ENT150 | Treasury | Score: 1.000
+     Write_Interestrates + Write_Collateralinformation
+16. ENT1241_ENT913 | Treasury | Score: 1.000
+     Admin_TreasuryManagementAmericasuseraccounts + Admin_CoreBankingAmericasuseraccounts
+17. ENT1705_ENT1715 | Treasury | Score: 1.000
+     Admin_FraudDetectionEuropesystemparameters + Read_FraudDetectionEuropeworkflowrules
+18. ENT1448_ENT878 | Treasury | Score: 1.000
+     Admin_RiskEngineEuropereferencedata + Admin_CoreBankingEuropeauditlogs
+19. ENT1492_ENT1689 | Treasury | Score: 1.000
+     Admin_RiskEngineAmericasworkflowrules + Write_FraudDetectionEuropedashboards
+20. ENT507_ENT512 | Treasury | Score: 1.000
+     Write_MobileBankingworkflowrules + Read_MobileBankingreferencedata
